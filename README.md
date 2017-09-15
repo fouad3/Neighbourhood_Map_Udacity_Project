@@ -25,9 +25,8 @@ Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--
 * open `index.html` file with your browser
 
 ### Attribution
+* [Google Maps API](https://developers.google.com/maps/)
 * [Foursquare API](https://developer.foursquare.com/)
-* [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
-
 
 
 ## Copyright and License
