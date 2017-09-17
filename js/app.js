@@ -55,6 +55,7 @@ var initMap = function () {
 // Handle Google Maps API errors
 var googleErrors = function () {
 	console.log( "There was an error, Couldn't load Google Maps API" );
+	alert( "There was an error, Couldn't load Google Maps API" );
 };
 
 var viewModel = function () {
@@ -102,7 +103,13 @@ var viewModel = function () {
 		// Check to make sure the infowindow is not already opened on this marker.
 		if ( infoWindow.marker !== marker ) {
 			infoWindow.marker = marker;
-
+                        
+			// change animation
+			marker.setAnimation( google.maps.Animation.BOUNCE );
+			setTimeout( function () {
+				marker.setAnimation( null );
+			}, 1400 );
+			
 			// Foursquare API
 			var url = 'https://api.foursquare.com/v2/venues/search';
 			var data = 'v=20170803&client_id=YGEW1C2X2OTMS420ZY5AMNWCTHNVUQNMSDJCLDCP2FHIIZUB&' +
