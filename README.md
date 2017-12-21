@@ -8,7 +8,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Description
-This project is a single page application featuring a map of Egypt, pizza restaurants in each city of this country, You can locate pizza restaurants on the map and get info from foursquare about this restaurants, The app allows you to filter the list down as you type. In return, it displays the locations on the map,this project is a part of the Udacity [Full Stack Web Developer
+Single page application featuring a map of Egypt, pizza restaurants in each city of this country, You can locate pizza restaurants on the map and get info from Foursquare about this restaurants, The app allows you to filter the list down as you type. In return, it displays the locations on the map,this project is a part of the Udacity's [Full Stack Web Developer
 Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 
